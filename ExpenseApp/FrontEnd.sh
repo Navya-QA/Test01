@@ -10,8 +10,8 @@ systemctl status nginx
 
 echo " installed successfully !! "
 
-cd ..
-cd ..
+cd ~/
+
 
 cp pro.conf /etc/nginx/default.d/expense.conf 
 systemctl restart nginx
