@@ -1,6 +1,6 @@
 dnf install nginx 
 systemctl enable nginx 
 systemctl restart nginx
-systemctl status ngnix
+systemctl status nginx
 
 echo " installed successfully !! "
